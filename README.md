@@ -3,7 +3,7 @@
 CÁCH 1: LỆNH NÀY SẼ TỰ CHẠY 
 sed -i.bak 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
 sed -i.bak 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
-cd /tmp/ && yum install git -y && git clone https://github.com/income88/Unlimited-OpenVPN-2.13.1 && cd Unlimited-OpenVPN-2.13.1/ && sed -i -e 's/\r$//' openvpn_2_13_1.sh && chmod 755 openvpn_2_13_1.sh && ./openvpn_2_13_1.sh
+cd /tmp/ && yum install git -y && git clone https://github.com/ngovanquang12c3/Unlimited-OpenVPN-2.13.1 && cd Unlimited-OpenVPN-2.13.1/ && sed -i -e 's/\r$//' openvpn_2_13_1.sh && chmod 755 openvpn_2_13_1.sh && ./openvpn_2_13_1.sh
 
 CÁCH 2: 
 FIX LỖI Could not retrieve mirrorlist
